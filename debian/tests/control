@@ -1,0 +1,2 @@
+Test-Command: ibus-keymagic-smoke --autopkgtest 2>&1
+Depends: ibus, ibus-keymagic-smoke

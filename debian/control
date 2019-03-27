@@ -1,0 +1,318 @@
+Source: ibus-keymagic
+Section: utils
+Priority: optional
+Maintainer: kokoye2007 <kokoye2007@gmail.com>
+Build-Depends: debhelper (>= 11), pkg-config, libibus-1.0-dev
+Standards-Version: 4.3.0
+Vcs-Git: https://git.launchpad.net/ibus-keymagic
+Vcs-Browser: https://git.launchpad.net/ibus-keymagic
+Homepage: https://keymagic.net
+
+Package: ibus-keymagic
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: keymagic engine for IBus
+ ibus-keymagic is a Keymagic Engine for Ibus.
+ you can create own smart keyboard.
+ download keymapper at Keymagic.net.
+
+Package: ibus-keymagic-ayar-phonetic
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic ayar-phonetic;
+ ayar-phonetic is a keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-beolssalba
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic beolssalba;
+ Write in Esagitian fraktur script with ease!
+ beolssalba is a keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-cessalba
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic cessalba;
+ Write in Mekniyan Czech!
+ cessalba is a keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-ddeolssalba
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic ddeolssalba;
+ Write in Nissiian braille!
+ ddeolssalba is a keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-gugeolssalba
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic gugeolssalba;
+ Write in informal Nissiian script! Gugeolssalba,
+ Jomulssalba and Xansiih included for seamless writing.
+ (Gugeolssalba is not in use anymore).
+ ibus keymagic engine.
+
+Package: ibus-keymagic-khmer-nida
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic khmer-nida;
+ Khmer Smart NIDA Keyboard Layout.
+ khmer-nida is a keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-loringian-miu
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic loringian-miu;
+ Write in Loringian script Miu with Keymagic!
+ loringian-miu is a keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-malayalam-inscript
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic malayalam-inscript;
+ malayalam-inscript is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-malayalam-mozhi
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic malayalam-mozhi;
+ malayalam-mozhi is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-meolssalba
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic meolssalba;
+ Write in computerized Nissiian script! Meolssalba,
+ Jomulssalba and Xansiih included for seamless writing.
+ (Meolssalba is not in use anymore).
+ meolssalba is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-mon-anonta
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Recommends: fonts-myanmar-mon
+Description: ibus keymagic mon-anonta;
+ Keyboard for typing Mon with Unicode 5.1.
+ mon-anonta is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-monbur
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic monbur;
+ Monbur Font for Keyboard Layout.
+ monbur is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-mon
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic mon;
+ Mon Unicode Keyboard Layout.
+ mon is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-myanmar3
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic Myanmar3;
+ Myanmar3 Official Keyboard.
+ Myanmar3 is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-myanmar3x
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic Myanmar3x;
+ Myanmar3 Official Extend Keyboard.
+ Myanmar3x is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-myansan
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic myansan;
+ Myan San mean Smart and Quickly in Burmese.
+ myansan is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-mywin
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic mywin;
+ MyWin is Type Writer Style Keyboard.
+ mywin is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-ou-khamti
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic ou-khamti;
+ Khamti Shan Keyboard Layout.
+ ou-khamti is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-ou-mon
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic ou-mon;
+ Mon Unicode Keyboard Layout.
+ ou-mon is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-ou-myanmar
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic ou-Myanmar;
+ ou-Myanmar is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-ou-palaung
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic ou-palaung;
+ ou-palaung is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-ou-pao
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic ou-pao;
+ Pao, Pa-O, Pa'O, Paoh Keyboard.
+ ou-pao is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-ou-shan
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic ou-shan;
+ Shan Official Keyboard.
+ ou-shan is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-ou-taile
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic ou-taile;
+ Taile Tai lue Shan Keyboard.
+ ou-taile is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-ou-taitham
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic ou-taitham;
+ Tai Tham Shan Keyboard Layout.
+ ou-taitham is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-panglongshan
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic panglongshan;
+ Panglong Shan Keyboard Layout.
+ panglongshan is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-paoh
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic paoh;
+ paoh is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-parabaik
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic parabaik;
+ parabaik is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-sunssalba
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic sunssalba;
+ Write in formal Nissiian script! Sunssalba,
+ Jomulssalba and Xansiih included for seamless writing.
+ sunssalba is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-unimon
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Recommends: fonts-myanmar-mon
+Description: ibus keymagic unimon;
+ Mon Unicode Font Keyboard.
+ unimon is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-yunghkio
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic yunghkio;
+ Yunghkio mean "Peacock" in Shan.
+ yunghkio is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-zawgyi
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Recommends: fonts-myanmar-zawgyi
+Description: ibus keymagic zawgyi;
+ Zawgyi Keyboard - Legacy.
+ zawgyi is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-zawgyinonsmart
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Recommends: fonts-myanmar-zawgyi
+Description: ibus keymagic zawgyinonsmart;
+ Zawgyi Font for Smart Keyboard.
+ zawgyinonsmart is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-zawgyitai
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Description: ibus keymagic zawgyitai;
+ zawgyi and tai script (aka shan).
+ zawgyitai is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-zawgyiunicode
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Recommends: fonts-myanmar-pyidaungsu
+Description: ibus keymagic zawgyiunicode;
+ Unicode with zawgyi keyboard.
+ zawgyiunicode is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-zgunicode
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Recommends: fonts-myanmar-pyidaungsu
+Description: ibus keymagic zgunicode;
+ Unicode with zawgyi keyboard.
+ zgunicode is keyboard with
+ ibus keymagic engine.
+
+Package: ibus-keymagic-pyidaungsu
+Architecture: all
+Depends: ${misc:Depends}, ibus-keymagic
+Recommends: fonts-myanmar-pyidaungsu
+Description: ibus keymagic pyidaungsu;
+ Pyidaungsu mean "Union" in Burma.
+ Pyidaungsu Font is Official in Myanmar.
+ Pyidaungsu Smart keyboard with
+ ibus keymagic engine.

@@ -1,0 +1,23 @@
+ibus-keymagic (1.4) unstable; urgency=medium
+
+  * Initial release for Upstream.
+
+ -- kokoye2007 <kokoye2007@gmail.com>  Sat, 23 Mar 2019 10:43:08 +0630
+
+ibus-keymagic (1.3) unstable; urgency=medium
+
+  * Upload to PPA
+
+ -- kokoye2007 <kokoye2007@gmail.com>  Fri, 17 Feb 2012 12:43:28 +0630
+
+ibus-keymagic (1.2) unstable; urgency=medium
+
+  * Debian Deb Create.
+
+ -- kokoye2007 <kokoye2007@gmail.com>  Sat, 13 Mar 2010 11:47:18 +0630
+
+ibus-keymagic (1.1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- kokoye2007 <kokoye2007@gmail.com>  Sat, 21 Mar 2009 10:23:08 +0630
