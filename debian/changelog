@@ -1,4 +1,10 @@
-ibus-keymagic (1.4) unstable; urgency=medium
+ibus-keymagic (1.4.1~exp1) unstable; urgency=medium
+
+  * close ITP closes: #948262.
+
+ -- kokoye2007 <kokoye2007@gmail.com>  Thu, 28 May 2020 00:24:33 +0630
+
+ibus-keymagic (1.4.1~exp1) unstable; urgency=medium
 
   * fix gpg key and uscan watch file.
   * lintian check is clean.
