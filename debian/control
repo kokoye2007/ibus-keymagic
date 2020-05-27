@@ -2,8 +2,8 @@ Source: ibus-keymagic
 Section: utils
 Priority: optional
 Maintainer: kokoye2007 <kokoye2007@gmail.com>
-Build-Depends: debhelper (>= 11), pkg-config, libibus-1.0-dev
-Standards-Version: 4.3.0
+Build-Depends: debhelper-compat (= 12), pkg-config, libibus-1.0-dev
+Standards-Version: 4.5.0
 Vcs-Git: https://git.launchpad.net/ibus-keymagic
 Vcs-Browser: https://git.launchpad.net/ibus-keymagic
 Homepage: https://keymagic.net

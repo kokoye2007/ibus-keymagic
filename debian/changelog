@@ -1,5 +1,12 @@
 ibus-keymagic (1.4) unstable; urgency=medium
 
+  * fix gpg key and uscan watch file.
+  * lintian check is clean.
+
+ -- kokoye2007 <kokoye2007@gmail.com>  Thu, 28 Mar 2019 01:23:38 +0630
+
+ibus-keymagic (1.4) unstable; urgency=medium
+
   * Initial release for Upstream.
 
  -- kokoye2007 <kokoye2007@gmail.com>  Sat, 23 Mar 2019 10:43:08 +0630

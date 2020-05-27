@@ -1,5 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ibus-keymagic
+Upstream-Contact: kokoye2007 <kokoye2007@gmail.com>
 Source: https://launchpad.net/ibus-keymagic/
 
 Files: *
