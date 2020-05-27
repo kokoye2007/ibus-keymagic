@@ -1,0 +1,7 @@
+ibus-keymagic (1.4-1~exp1) unstable; urgency=medium
+
+  * fix gpg key and uscan watch file.
+  * lintian check is clean.
+  * Closes: #933071.
+
+ -- kokoye2007 <kokoye2007@gmail.com>  Thu, 28 May 2020 00:24:33 +0630
